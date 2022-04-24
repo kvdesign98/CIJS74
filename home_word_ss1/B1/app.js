@@ -6,4 +6,4 @@ console.log(calculateRectArea(10,5));
 
 console.log(calculateCircleArea(30));
 
-console.log(info)
+console.log(info.name)

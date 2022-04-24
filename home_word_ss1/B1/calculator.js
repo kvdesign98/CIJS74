@@ -6,16 +6,11 @@ export const calculateRectArea = (a, b) => a * b
 
 export const calculateCircleArea = (r) => PI * r * r
 
-
-
-const info = {
+export default  {
     "name": "tên máy tính",
     "country": "quốc gia sản xuất",
     "producer": "hãng sản xuất",
     "year": "năm sản xuất",
 }
-
-export default info
-     
 
 

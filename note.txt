@@ -1,0 +1,2 @@
+- NodeJS: nền tảng thực thi js ngoài trình duyệt => JS có thể làm backend
+- NPM (node package manager):trình quản lý backage (thư viện || framework) của NodeJS

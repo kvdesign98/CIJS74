@@ -1,8 +1,9 @@
-import {sum, calculateRectArea, calculateCircleArea} from "./calculator.js"
+import info,{sum, calculateRectArea, calculateCircleArea} from "./calculator.js"
 
-sum(12,3);
+console.log(sum(12,3));
 
-calculateRectArea(10,5);
+console.log(calculateRectArea(10,5));
 
-calculateCircleArea(30);
+console.log(calculateCircleArea(30));
 
+console.log(info)

@@ -7,7 +7,15 @@ body{
   display: grid;
   grid-template-columns: auto auto auto auto ;
 }
-
-.top {
+.topMain{
   border: 3px inset #00fbffcd;
+  
+}
+.top {
+  
+  display:flex
+}
+
+.icon {
+  width: 10%;
 }

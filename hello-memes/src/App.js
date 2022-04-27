@@ -1,8 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
-import MangaContainer from './components/MangaContainer';
-import MangaList from './components/MangaList';
+import MangaContainer from './components/MangaContainer(hwSS2)';
+import MangaList from './components/MangaList(hwSS2)';
 
 function App() {
 return (

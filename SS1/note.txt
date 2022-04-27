@@ -1,2 +1,29 @@
 - NodeJS: nền tảng thực thi js ngoài trình duyệt => JS có thể làm backend
 - NPM (node package manager):trình quản lý backage (thư viện || framework) của NodeJS
+
+
+-react: thư viện để làm front - end
+-cốt lõi của reactjs: component(reusable component)
+-Lợi ích khi dùng component:
++Tái sử dụng
++Dễ sủa chữa 
++Dễ thay thế:
++chuyên môn hóa cao:
+- TRường phái reactJS:
++Functional component:tạo ra component bằng những function (lập trình hướng cấu trúc)
++Class component : tạo ra component dựa trên class (lập trình hướng đối tượng)
++kết hợp 2 thằng trên 
+
+- cú pháp JSX (javascript xml): không phải HTML
+
+-JSX 
+    +Không có class, thay bằng className
+    +phải đóng gói nội dung vào 1 thẻ lớn 
+    +có thể chèn biến hoặc biểu thức vào bất kỳ đâu
+    +Kiểu dữ liệu primitive và mảng có thể chèn vào JSX
+    +Thuộc tính style của tất cả các thẻ chỉ đc phép nhận object {}
+    +Những thuộc tính của thẻ viết theo quy tắt camelCase
+-Props:
+    +Là 1 đối tượng
+    +Lưu trữ thuộc tính React component
+    +bản thân component không thể  thay đổi props(props is ) 

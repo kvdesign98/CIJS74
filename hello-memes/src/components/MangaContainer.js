@@ -4,11 +4,11 @@ export default function MangaContainer({ image, name, viewCount, commentCount, l
 
     return (
         <div className="MangaContainer">
-
+            <div>
             <div className="top">
 
                 <img className="image" src={image} alt="Ảnh" /><br />
-                <span className="viewCount"> {viewCount}</span>
+                <span className="viewCount"> {viewCount} </span>
                 <span className="commentCount"> {commentCount}</span>
                 
             </div>
@@ -18,6 +18,7 @@ export default function MangaContainer({ image, name, viewCount, commentCount, l
             <div className="lastestChapter">Chapter : {lastestChapter}</div>
 
             <div className="dateModified">{dateModified}</div><br /><br />
+            </div>
         </div>
     )
 }

@@ -84,9 +84,9 @@ let data = [{
 
 export default function MangaList() {
     return (
-        <div>
+        <div  className="MangaContainer">
             {data.map(item => (
-                <div className="MangaContainer">
+                <div>
 
                     <div className="top"> 
                     

@@ -2,17 +2,12 @@ body{
   margin-top: 5%;
 
 }
-.allCard{
-
-}
 .MangaContainer {
   text-align: center;
-
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
 }
 
 .top {
   border: 3px inset #00fbffcd;
-  margin-left: 30%;
-  margin-right: 30%;
- 
 }

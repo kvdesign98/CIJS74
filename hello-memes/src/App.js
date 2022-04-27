@@ -6,7 +6,7 @@ import MangaList from './components/MangaList';
 
 function App() {
 return (
-  <div className="allCard">
+  <div>
     <MangaContainer 
       image="http://dummyimage.com/300x400.png/cc0000/ffffff"
       name="attack on titan"

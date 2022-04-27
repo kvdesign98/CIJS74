@@ -1,0 +1,21 @@
+body{
+  margin-top: 5%;
+
+}
+.MangaContainer {
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+}
+.topMain{
+  border: 3px inset #00fbffcd;
+  
+}
+.top {
+  
+  display:flex
+}
+
+.icon {
+  width: 10%;
+}

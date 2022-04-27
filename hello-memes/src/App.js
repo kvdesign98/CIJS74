@@ -1,23 +1,43 @@
 import logo from './logo.svg';
 import './App.css';
 
-import MangaContainer from './components/MangaContainer(hwSS2)';
-import MangaList from './components/MangaList(hwSS2)';
+import ProfileCard from './components/ProfileCard';
 
 function App() {
+
+  // let name = "Đại Hữu"
+  // let address = "Bình Dương"
+  // let weight = 49
+  // let height = 175
+
+  // const TEXT_RED={
+  //   color: "red"
+  // }
+
+  // const BG_BLUE={
+  //   backgroundColor:"cyan"
+  // }
+
+  // const hello = () => {
+  //   alert("Hello world")
+  // }
+
+  // return (
+  //   <div>
+  //     <h1 className="title">
+  //       Hello World from React App , <span className="text-red">{name}</span> {weight}kg {height}cm {address}
+  //     </h1>
+  //     <h2><span style={{...TEXT_RED,...BG_BLUE}}>hihi</span></h2>
+
+  //     <button onClick={hello}>Click me</button>
+  //   </div>
+  // );
 return (
   <div>
-    <MangaContainer 
-      image="http://dummyimage.com/300x400.png/cc0000/ffffff"
-      name="attack on titan"
-      viewCount="190748"
-      commentCount="32832"
-      lastestChapter="114"
-      dateModified="10/10/2021"/>
-      <MangaList />
+    <ProfileCard name="VDH" address="Bình dương " photo=""/>
   </div>
 )}
 
 export default App;
 
-
+//npm start
